@@ -1,0 +1,72 @@
+{
+  "lang": [
+    {
+      "code": "en",
+      "lan": "English"
+    },
+    {
+      "code": "ar",
+      "lan": "Arabic"
+    },
+    {
+      "code": "jp",
+      "lan": "Japan"
+    }
+  ],
+  "coun": [
+    {
+      "code": "bh",
+      "country": "Bahrain",
+      "package": [
+        {
+          "title": "Lite",
+          "amount": "2"
+        },
+        {
+          "title": "Classic",
+          "amount": "3"
+        },
+        {
+          "title": "Premium",
+          "amount": "6"
+        }
+      ]
+    },
+    {
+      "code": "sa",
+      "country": "KSA",
+      "package": [
+        {
+          "title": "Lite",
+          "amount": "15"
+        },
+        {
+          "title": "Classic",
+          "amount": "25"
+        },
+        {
+          "title": "Premium",
+          "amount": "60"
+        }
+      ]
+    },
+    {
+      "code": "kw",
+      "country": "Kuwait",
+      "package": [
+        {
+          "title": "Lite",
+          "amount": "1.2"
+        },
+        {
+          "title": "Classic",
+          "amount": "2.5"
+        },
+        {
+          "title": "Premium",
+          "amount": "4.8"
+        }
+      ]
+    }
+  ]
+}
