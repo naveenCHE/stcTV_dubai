@@ -7,7 +7,6 @@ describe('Stc tv pacakges - Tests', () => {
         cy.fixture('stcData').then((res) => {
             cy.selectLanguage(res.lang[0].code, res.lang[0].lan);
 
-            //cy.country(res.coun[0].code, res.coun[0].country);
             cy.get('.head-links>.country-current').click();
             cy.get('#country-title').contains('Select Your Country').should('be.visible');
             cy.get(`a[id="${res.coun[0].code}"]`).contains(res.coun[0].country).should('be.visible').click();
@@ -31,7 +30,7 @@ describe('Stc tv pacakges - Tests', () => {
     it("Validate package for KSA Country", () => {
         cy.fixture('stcData').then((res) => {
             cy.selectLanguage(res.lang[0].code, res.lang[0].lan);
-            //cy.country(res.coun[1].code, res.coun[1].country);
+
             cy.get('.head-links>.country-current').click();
             cy.get('#country-title').contains('Select Your Country').should('be.visible');
             cy.get(`a[id="${res.coun[1].code}"]`).contains(res.coun[1].country).should('be.visible').click();
@@ -56,7 +55,6 @@ describe('Stc tv pacakges - Tests', () => {
         cy.fixture('stcData').then((res) => {
             cy.selectLanguage(res.lang[0].code, res.lang[0].lan);
 
-            //cy.country(res.coun[2].code, res.coun[2].country); 
             cy.get('.head-links>.country-current').click();
             cy.get('#country-title').contains('Select Your Country').should('be.visible');
             cy.get(`a[id="${res.coun[2].code}"]`).contains(res.coun[2].country).should('be.visible').click();
